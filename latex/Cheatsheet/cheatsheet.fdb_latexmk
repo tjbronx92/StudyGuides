@@ -1,6 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1761635301.86612 "/Users/tj/Documents/StudyGuides/latex/cheatsheet.tex" "cheatsheet.pdf" "cheatsheet" 1761635302.94354 0
-  "/Users/tj/Documents/StudyGuides/latex/cheatsheet.tex" 1761635301.48762 71 c9aa703a7c6c1df4aab7586f0587dd48 ""
+["pdflatex"] 1761635478.54207 "/Users/tj/Documents/StudyGuides/latex/Cheatsheet/cheatsheet.tex" "cheatsheet.pdf" "cheatsheet" 1761635479.45494 0
+  "/Users/tj/Documents/StudyGuides/latex/Cheatsheet/cheatsheet.tex" 1761635478.20003 95 2aa2cd3113c75d6ab6a5517835d2033d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo" 1738182759 8448 5cf247d4bd0c7d5d711bbbdf111fae2e ""
@@ -9,8 +12,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761032360 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "cheatsheet.aux" 1761635302.8817 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "cheatsheet.tex" 1761635301.48762 71 c9aa703a7c6c1df4aab7586f0587dd48 ""
+  "cheatsheet.aux" 1761635479.38434 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "cheatsheet.tex" 1761635478.20003 95 2aa2cd3113c75d6ab6a5517835d2033d ""
   (generated)
   "cheatsheet.aux"
   "cheatsheet.log"
