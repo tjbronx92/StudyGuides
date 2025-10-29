@@ -1,9 +1,48 @@
-\documentclass[a4paper,13pt]{article}
+\documentclass[a4paper,12pt]{article}
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
 \begin{document}
 \title{\underline{eBPF Notes}}
 \author{TJ Robinson}
 \maketitle
 
 \section{What is eBPF?}
-- eBPF (extended Berkeley Packet Filter)
+\begin{itemize}
+    \item eBPF (extended Berkeley Packet Filter)
+\end{itemize}
+
+\subsection{Logs vs. Metrics vs. Observability}
+\begin{itemize}
+    \item Logs: Detailed, unstructured, aggregated data about individual events.
+    \begin{itemize}
+        \item  Useful for troubleshooting and forensic analysis.
+        \item Can be voluminous and harder to analyze at scale.
+    \end{itemize}
+    \item Metrics: Aggregated, structured data for to monitor a program or system performance at a specific point in time.
+    \begin{itemize}
+        \item Useful for identifying trends and triggering alerts.
+        \item Typically less detailed but more efficient to store and query.
+    \end{itemize}
+    \item Observability: Combines logs, metrics, and traces to provide a comprehensive view of system behavior.
+    \begin{itemize}
+        \item Capacity to ask arbitrary questions and recieve complex answers about a system's state.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Namespaces \& Cgroups}
+Both are fundamental for containerization and resource management in Linux. 
+\begin{itemize}
+    \item Namespaces: Isolate system resources for processes (e.g., PID, network, mount).
+    \begin{itemize}
+        \item inside a namespace, you experience the operating system like there were no other tasks running on the computer
+    \end{itemize}
+    \item Cgroups: Control and limit resource usage (CPU, memory, I/O) for process groups.
+    \begin{itemize}
+        \item gives you fine grain control over resource usage like CPU, disk I/O, network, and etc.
+    \end{itemize}
+\end{itemize}
+
+Tracepoints are static marks in the kernel code that can be used to inject code to inspect the kernel's execution.
+
 \end{document}
