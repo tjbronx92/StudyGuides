@@ -25,6 +25,14 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT ./eBPF.aux
