@@ -3,8 +3,8 @@
 \usepackage{blindtext}
 
 \begin{document}
-\title{\underline{eBPF Notes}}
-\author{TJ Robinson}
+\title{\underline{\scshape{eBPF Notes}}}
+\author{\scshape{TJ Robinson}}
 \maketitle
 
 \section{What is eBPF?}
@@ -45,4 +45,25 @@ Both are fundamental for containerization and resource management in Linux.
 
 Tracepoints are static marks in the kernel code that can be used to inject code to inspect the kernel's execution.
 
+\section{BPF Program Types}
+
+\subsection{Socket Filter Programs}
+\begin{itemize}
+    \item Attach to network sockets to filter packets.
+    \item Commonly used for packet filtering and monitoring.
+    \item You can not modify the packets, only accept, drop, or observe them.
+\end{itemize}
+
+\subsection{Kprobes and Uprobes}
+\begin{itemize}
+    \item Kprobes: Attach to kernel functions to trace and monitor kernel events.
+    \item Uprobes: Attach to user-space functions to trace and monitor application events.
+\end{itemize}
+
+\subsection{XDP (eXpress Data Path) Programs}
+\begin{itemize}
+    \item Attach to the earliest point in the network stack.
+    \item Used for high-performance packet processing.
+    \item Can modify or drop packets before they reach the kernel networking stack.
+\end{itemize}
 \end{document}
