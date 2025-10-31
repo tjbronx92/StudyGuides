@@ -60,11 +60,31 @@ Tracepoints are static marks in the kernel code that can be used to inject code 
 \subsection{Kprobes and Uprobes}
 \begin{itemize}
     \item Kprobes: Attach to kernel functions to trace and monitor kernel events.
+    \begin{itemize}
+        \item define dynamic breakpoints in the kernel code.
+        \item defined with the type \texttt{BPF\_PROG\_TYPE\_KPROBE}.
+        \item BPF VM ensures kprobe programs are safe to run.
+        \item You'll need to decide whether to attach at function entry or exit of the syscall.
+        \begin{itemize}
+            \item Entry probes: Capture arguments passed to the function.
+            \item Exit probes: Capture return values from the function.
+        \end{itemize}
+    \end{itemize}
     \item Uprobes: Attach to user-space functions to trace and monitor application events.
+\end{itemize}
+
+\subsection{Tracepoint Programs}
+\begin{itemize}
+    \item Defined by the type \texttt{BPF\_PROG\_TYPE\_TRACEPOINT}.
+    \item All system tracepoints are defined in the the /sys/kernel/debug/tracing/events/ directory.
+    \item Attach to predefined tracepoints in the kernel.
+    \item Used for monitoring specific kernel events.
+    \item More stable than kprobes as tracepoints are less likely to change.
 \end{itemize}
 
 \subsection{XDP \textsl{(eXpress Data Path)} Programs}
 \begin{itemize}
+    \item Defined by the type \texttt{BPF\_PROG\_TYPE\_XDP}.
     \item Attach to the earliest point in the network stack.
     \item Used for high-performance packet processing.
     \item Can modify or drop packets before they reach the kernel networking stack.
