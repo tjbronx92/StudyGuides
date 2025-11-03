@@ -1,15 +1,21 @@
-\documentclass[a4paper,12pt, landscape, twocolumn{book}
+\documentclass[a4paper, 12pt]{book}
 \usepackage[english]{babel}
 \usepackage{blindtext}
-\usepackage[a4paper, inner=1.5cm, outer=3cm, top=2cm, bottom=3cm, bindingoffset=0.5cm]{geometry}
+\usepackage{fancyhdr}
+\renewcommand{\footnoterule}{\noindent\smash{\rule[3pt]{\textwidth}{0.4pt}}}
+\fancyhf{}
+\fancyhead[LE]{\scshape\nouppercase{\leftmark}}
+\fancyhead[RO]{\nouppercase{\rightmark}}
+\fancyfoot[LE,RO]{\thepage}
+\pagestyle{fancy}
 
 \begin{document}
 \chapter{Exploring the page layout}
 In this chapter we will study the layout of pages.
 \section{Some filler text}
 \blindtext
-\section{A lot more filler test}
-More dummy text will follow.
+\section{A lot more filler text}
+More dummy text\footnote{serving as a placeholder} will follow.
 \subsection{plenty of filler text}
 \blindtext[10]
 \end{document}
