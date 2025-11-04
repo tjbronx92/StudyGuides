@@ -1,9 +1,31 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+
+\fancyhf{}
+\fancyhead[LE]{\scshape\nouppercase{\leftmark}}
+\fancyhead[RO]{\nouppercase{\rightmark}}
+\fancyfoot[LE,RO]{\thepage}
+\pagestyle{fancy}
+
 \begin{document}
 \title{Prometheus Cheatsheet}
 \author{\scshape TJ Robinson}
 \maketitle
 
-\section{\textsc{promQL}}
+\section{\normalfont\textsc{promQL}}
+\begin{description}
+    \item[promQL]  is the query language used to query metrics stored in Prometheus.
+\end{description}
+
+PromQL queries can evaluate to one of four types of results:
+\begin{itemize}
+    \item Instant vector: A set of time series containing a single sample for each time series, all sharing the same timestamp.
+    \item Range vector: A set of time series containing a range of data points over time for each time series.
+    \item Scalar: A single numerical value.
+    \item String: A single string value.
+\end{itemize}
+
+
 
 \end{document}
