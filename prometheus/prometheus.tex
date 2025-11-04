@@ -1,6 +1,11 @@
 \documentclass[a4paper,12pt]{article}
+\usepackage[a4paper, inner=1.5cm, outer=3cm, top=1cm, bottom=3cm, bindingoffset=0.5cm]{geometry}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
+\usepackage{sectsty}
+
+\sectionfont{\normalfont\scshape}
+\subsectionfont{\normalfont\scshape}
 
 \fancyhf{}
 \fancyhead[LE]{\scshape\nouppercase{\leftmark}}
@@ -13,7 +18,16 @@
 \author{\scshape TJ Robinson}
 \maketitle
 
-\section{\normalfont\textsc{promQL}}
+\section{Prometheus TSDB}
+\begin{description}
+    \item[Prometheus TSDB] is a time series database designed for storing and querying time series data, particularly metrics data collected from various sources.
+\end{description}
+\subsection{Head block}
+\begin{description}
+    \item[Head block] is the in-memory storage component of Prometheus TSDB that holds the most recent time series data before it is flushed to disk.
+\end{description}
+
+\section{promQL}
 \begin{description}
     \item[promQL]  is the query language used to query metrics stored in Prometheus.
 \end{description}
