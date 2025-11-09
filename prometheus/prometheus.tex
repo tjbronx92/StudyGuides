@@ -18,13 +18,35 @@
 \author{\scshape TJ Robinson}
 \maketitle
 
+\section{Metric vs. Time-Series}
+\begin{description}
+    \item[Metric] is a numerical value that represents a specific measurement at a specific point in time.
+    \item[Time-Series] is a sequence of data points, typically ordered by time, that represents the evolution of a metric over time.
+\end{description}
+
 \section{Prometheus TSDB}
 \begin{description}
     \item[Prometheus TSDB] is a time series database designed for storing and querying time series data, particularly metrics data collected from various sources.
 \end{description}
+
 \subsection{Head block}
 \begin{description}
     \item[Head block] is the in-memory storage component of Prometheus TSDB that holds the most recent time series data before it is flushed to disk.
+        \begin{itemize}
+            \item Each chunk for a time series in the head block typically contains data points for a specific time range and can grow to 120 samples before it is flushed to the active chunk's segment file in the \texttt{chunks\_head} directory on the disk.
+            \item Each head chunk segment file can grow to 128 MB before it is finalized and a new segment file is created for that chunk.
+            \item When the head block reaches 1.5x the minimum block size (default 2 hours), a new block is created, and the current head block is flushed to disk as a finalized block.
+        \end{itemize}
+\end{description}
+
+\subsection{WAL}
+\begin{description}
+    \item[WAL (Write-Ahead Log)] is a log file that records all changes made to the head block before they are applied, ensuring data durability and consistency in case of crashes.
+    \begin{itemize}
+        \item The WAL prevents loss of recent data by allowing Prometheus to replay the log and restore the head block to its last known state upon restart.
+        \item WAL segments are stored in the \texttt{wal} directory and are named sequentially (e.g., 00000000, 00000001, etc.).
+        \item Each WAL segment can grow up to 512 MB before a new segment is created
+    \end{itemize}
 \end{description}
 
 \section{promQL}
@@ -33,6 +55,7 @@
 \end{description}
 
 PromQL queries can evaluate to one of four types of results:
+
 \begin{itemize}
     \item Instant vector: A set of time series containing a single sample for each time series, all sharing the same timestamp.
     \item Range vector: A set of time series containing a range of data points over time for each time series.
