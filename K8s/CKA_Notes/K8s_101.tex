@@ -21,19 +21,20 @@
     \item[kubectl] is the command-line tool used to interact with Kubernetes clusters.
 \end{description}
 
-\subsection{\texttt{kubectl} Resources}
+\subsection{\texttt{kubectl} Documentation}
 \begin{itemize}
     \item \texttt{kubectl api-resources} - List all available resource types in the cluster.
+    \item \texttt{kubectl explain <resource>} - Show documentation for a specific resource type.
+    \item \texttt{kubectl explain <resource>.<field>} - Show documentation for a specific field of a resource.
+    \item \texttt{kubectl explain  <resource> --recursive} - Show documentation for a resource and all its fields recursively.
+
+\end{itemize}
+
+\subsection{\texttt{kubectl} Resources}
+\begin{itemize}
     \item \texttt{kubectl get pods} - List all pods in the current namespace.
     \item \texttt{kubectl get services} - List all services in the current namespace.
     \item \texttt{kubectl get deployments} - List all deployments in the current namespace.
-\end{itemize}
-
-\subsection{\texttt{kubectl} Documentation}
-\begin{itemize}
-    \item \texttt{kubectl explain <resource>} - Show documentation for a specific resource type.
-    \item \texttt{kubectl explain <resource>.<field>} - Show documentation for a specific field of a resource.
-    \item \texttt{kubectl explain --recursive <resource>} - Show documentation for a resource and all its fields recursively.
 \end{itemize}
 
 \subsection{\texttt{kubectl apply}}
