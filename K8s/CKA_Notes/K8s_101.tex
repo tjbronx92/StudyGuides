@@ -3,6 +3,13 @@
 \usepackage{blindtext}
 \usepackage{fancyhdr}
 
+\renewcommand{\footnoterule}{\noindent\smash{\rule[3pt]{\textwidth}{0.4pt}}}
+\fancyhf{}
+\fancyhead[LE]{\scshape\nouppercase{\leftmark}}
+\fancyhead[RO]{\nouppercase{\rightmark}}
+\fancyfoot[LE,RO]{\thepage}
+\pagestyle{fancy}
+
 \begin{document}
 \title{Kubernetes 101 Notes}
 \author{\scshape TJ Robinson}
