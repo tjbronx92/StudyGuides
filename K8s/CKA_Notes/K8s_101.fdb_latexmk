@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763081848.88174 "/Users/tj/Documents/StudyGuides/K8s/CKA_Notes/K8s_101.tex" "K8s_101.pdf" "K8s_101" 1763081849.84363 0
-  "/Users/tj/Documents/StudyGuides/K8s/CKA_Notes/K8s_101.tex" 1763081848.6383 1885 af140d12300f9289c5fa931b4ea616ac ""
+["pdflatex"] 1763081967.4239 "/Users/tj/Documents/StudyGuides/K8s/CKA_Notes/K8s_101.tex" "K8s_101.pdf" "K8s_101" 1763081968.37728 0
+  "/Users/tj/Documents/StudyGuides/K8s/CKA_Notes/K8s_101.tex" 1763081966.22764 1889 782d0aadea695122f252ae872b711701 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -53,8 +53,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761603459 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "K8s_101.aux" 1763081849.77156 628 dfdaf0c15755f0eaa2543939684e934b "pdflatex"
-  "K8s_101.tex" 1763081848.6383 1885 af140d12300f9289c5fa931b4ea616ac ""
+  "K8s_101.aux" 1763081968.30459 632 c0731d47da4b7ca53ff2d357a9cc8ce0 "pdflatex"
+  "K8s_101.tex" 1763081966.22764 1889 782d0aadea695122f252ae872b711701 ""
   "k8s_logo.png" 1763071065.32241 166134 18a511e502b8f4bb85edd5d2715337bb ""
   (generated)
   "K8s_101.aux"
