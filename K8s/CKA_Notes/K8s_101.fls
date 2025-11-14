@@ -27,10 +27,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-engli
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-en.ini
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/blindtext/blindtext.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
-INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/tools/xspace.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
