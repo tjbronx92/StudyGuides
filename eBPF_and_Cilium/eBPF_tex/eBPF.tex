@@ -60,6 +60,21 @@ Both are fundamental for containerization and resource management in Linux.
 
 Tracepoints are static marks in the kernel code that can be used to inject code to inspect the kernel's execution.
 
+\section{eBPF Runtime}
+The eBPF runtime is responsible for loading, verifying, and executing eBPF programs in the Linux kernel. It provides a virtual machine (VM) environment where eBPF bytecode can run safely and efficiently.
+\begin{description}
+    \item [Verifier:] Ensures eBPF programs are safe to run in the kernel.
+        \begin{itemize}
+            \item Checks for safety properties like bounded loops, valid memory access, and resource limits.
+        \end{itemize}
+    \item [JIT Compiler:] Translates eBPF bytecode into native machine code for improved performance.
+        \begin{itemize}
+            \item only invoked after the JIT compiler has verified the program is safe to run.
+        \end{itemize}
+    \item [Maps:] Data structures that allow eBPF programs to store and share data between the kernel and user-space.    
+    \item [Attachment Points:] Locations in the kernel where eBPF programs can be attached (e.g., kprobes, tracepoints, XDP).
+\end{description}
+
 \section{BPF Program Types}
 
 \subsection{Socket Filter Programs}
