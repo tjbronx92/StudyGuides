@@ -24,46 +24,46 @@
 \section{What is eBPF?}
 \begin{itemize}
     \item eBPF (extended Berkeley Packet Filter)
-    \item Outperforms \textsl{IPtables} based soliutions
+    \item Outperforms \textsl{IPtables} based solutions
 \end{itemize}
 
 \subsection{Logs vs. Metrics vs. Observability}
-\begin{itemize}
-    \item Logs: Detailed, unstructured, aggregated data about individual events.
+\begin{description}
+    \item [Logs:] Detailed, unstructured, aggregated data about individual events.
     \begin{itemize}
         \item  Useful for troubleshooting and forensic analysis.
         \item Can be voluminous and harder to analyze at scale.
     \end{itemize}
-    \item Metrics: Aggregated, structured data for to monitor a program or system performance at a specific point in time.
+    \item [Metrics:] Aggregated, structured data used to monitor a program or system performance at a specific point in time.
     \begin{itemize}
         \item Useful for identifying trends and triggering alerts.
         \item Typically less detailed but more efficient to store and query.
     \end{itemize}
-    \item Observability: Combines logs, metrics, and traces to provide a comprehensive view of system behavior.
+    \item [Observability:] Combines logs, metrics, and traces to provide a comprehensive view of system behavior.
     \begin{itemize}
         \item Capacity to ask arbitrary questions and recieve complex answers about a system's state.
     \end{itemize}
-\end{itemize}
+\end{description}
 
 \subsection{Namespaces \& Cgroups}
 Both are fundamental for containerization and resource management in Linux. 
-\begin{itemize}
-    \item Namespaces: Isolate system resources for processes (e.g., PID, network, mount).
+\begin{description}
+    \item [Namespaces:] Isolate system resources for processes (e.g., PID, network, mount).
     \begin{itemize}
         \item inside a namespace, you experience the operating system like there were no other tasks running on the computer
     \end{itemize}
-    \item Cgroups: Control and limit resource usage (CPU, memory, I/O) for process groups.
+    \item [Cgroups:] Control and limit resource usage (CPU, memory, I/O) for process groups.
     \begin{itemize}
         \item gives you fine grain control over resource usage like CPU, disk I/O, network, and etc.
     \end{itemize}
-\end{itemize}
+\end{description}
 
 Tracepoints are static marks in the kernel code that can be used to inject code to inspect the kernel's execution.
 
 \section{eBPF Runtime}
-The eBPF runtime is responsible for loading, verifying, and executing eBPF programs in the Linux kernel. It provides a virtual machine (VM) environment where eBPF bytecode can run safely and efficiently.
+The eBPF runtime is responsible for loading, verifying, and executing eBPF programs in the Linux kernel. It provides a virtual machine (VM) environment where eBPF bytecode can run safely and efficiently. The eBPF runtime includes:
 \begin{description}
-    \item [Verifier:] Ensures eBPF programs are safe to run in the kernel.
+    \item [eBPF Verifier:] Ensures eBPF programs are safe to run in the kernel.
         \begin{itemize}
             \item Checks for safety properties like bounded loops, valid memory access, and resource limits.
         \end{itemize}
@@ -84,9 +84,9 @@ The eBPF runtime is responsible for loading, verifying, and executing eBPF progr
     \item You can not modify the packets, only accept, drop, forward, or observe them.
 \end{itemize}
 
-\subsection{Kprobes and Uprobes}
-\begin{itemize}
-    \item Kprobes: Attach to kernel functions to trace and monitor kernel events.
+\subsection{Kprobes \& Uprobes}
+\begin{description}
+    \item [Kprobes:] Attach to kernel functions to trace and monitor kernel events.
     \begin{itemize}
         \item define dynamic breakpoints in the kernel code.
         \item defined with the type \texttt{BPF\_PROG\_TYPE\_KPROBE}.
@@ -97,8 +97,8 @@ The eBPF runtime is responsible for loading, verifying, and executing eBPF progr
             \item Exit probes: Capture return values from the function.
         \end{itemize}
     \end{itemize}
-    \item Uprobes: Attach to user-space functions to trace and monitor application events.
-\end{itemize}
+    \item [Uprobes:] Attach to user-space functions to trace and monitor application events.
+\end{description}
 
 \subsection{Tracepoint Programs}
 \begin{itemize}
