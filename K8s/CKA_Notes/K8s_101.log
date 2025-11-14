@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  13 NOV 2025 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  13 NOV 2025 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
 \c@section=\count197
@@ -161,12 +161,12 @@ LaTeX Font Info:    ... okay on input line 15.
 * \topmargin=-80.81725pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=85.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=111.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -196,50 +196,43 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 18.
+(Font)              <12> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 21.
-<k8s_logo.png, id=1, 2116.90875pt x 2056.68375pt>
-File: k8s_logo.png Graphic file (type png)
-<use k8s_logo.png>
-Package pdftex.def Info: k8s_logo.png  used on input line 28.
-(pdftex.def)             Requested size: 289.07999pt x 280.84134pt.
+(Font)              <8> on input line 18.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 18.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 21.
+</Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 05/png-clipart-drawing-car-rat-fink-decal-art-car-face-monochrome.png, id=1, 903.375pt x 803.0pt>
+File: /Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 05/png-clipart-drawing-car-rat-fink-decal-art-car-face-monochrome.png Graphic file (type png)
+<use /Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 05/png-clipart-drawing-car-rat-fink-decal-art-car-face-monochrome.png>
+Package pdftex.def Info: /Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 05/png-clipart-drawing-car-rat-fink-decal-art-car-face-monochrome.png  used on input line 29.
+(pdftex.def)             Requested size: 96.02194pt x 85.35284pt.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 32.
 
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[2 <./k8s_logo.png>] (./K8s_101.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} </Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 05/png-clipart-drawing-car-rat-fink-decal-art-car-face-monochrome.png>] (./K8s_101.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3495 strings out of 473190
- 60040 string characters out of 5715801
- 477687 words of memory out of 5000000
- 26747 multiletter control sequences out of 15000+600000
- 563183 words of font info for 52 fonts, out of 8000000 for 9000
+ 3486 strings out of 473190
+ 60348 string characters out of 5715801
+ 477644 words of memory out of 5000000
+ 26731 multiletter control sequences out of 15000+600000
+ 564234 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,261b,410s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on K8s_101.pdf (2 pages, 208223 bytes).
+ 57i,6n,65p,340b,240s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on K8s_101.pdf (1 page, 132544 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
