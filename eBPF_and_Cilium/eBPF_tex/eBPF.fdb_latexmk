@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763098564.92115 "/Users/tj/Documents/StudyGuides/eBPF_and_Cilium/eBPF_tex/eBPF.tex" "eBPF.pdf" "eBPF" 1763098565.79406 0
-  "/Users/tj/Documents/StudyGuides/eBPF_and_Cilium/eBPF_tex/eBPF.tex" 1763098564.56803 4038 432a10f23ae5e775cf33fd04dfde42a2 ""
+["pdflatex"] 1763099047.0987 "/Users/tj/Documents/StudyGuides/eBPF_and_Cilium/eBPF_tex/eBPF.tex" "eBPF.pdf" "eBPF" 1763099048.07411 0
+  "/Users/tj/Documents/StudyGuides/eBPF_and_Cilium/eBPF_tex/eBPF.tex" 1763099045.84184 4291 7e89a2d25855058f4f2da72fa3718db9 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -32,6 +32,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls" 1738182759 20144 63d8bacaf52e5abf4db3bc322373e1d4 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/base/size12.clo" 1738182759 8449 ffe4ba2166a344827c3a832d1d5e0a91 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1739048179 31715 19e60610b63819fe670dfa1cd84a4e94 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/pdftex.def" 1713382759 19440 9da9dcbb27470349a580fca7372d454b ""
@@ -45,8 +46,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761032360 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "eBPF.aux" 1763098565.71081 1072 643b07935ff0a06784c17546b2f2b08c "pdflatex"
-  "eBPF.tex" 1763098564.56803 4038 432a10f23ae5e775cf33fd04dfde42a2 ""
+  "eBPF.aux" 1763099047.98195 1072 643b07935ff0a06784c17546b2f2b08c "pdflatex"
+  "eBPF.tex" 1763099045.84184 4291 7e89a2d25855058f4f2da72fa3718db9 ""
   "img/NicePng_bumblebee-png_1235241.png" 1763098409.00211 165809 699e1c5083b3005925630fa989b08ffe ""
   (generated)
   "eBPF.aux"

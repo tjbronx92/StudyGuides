@@ -1,8 +1,15 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[a4paper,twoside,12pt]{article}
 \usepackage[english]{babel}
 \usepackage{graphicx}
+\usepackage{fancyhdr}
 \usepackage[a4paper, inner=1.5cm, outer=3cm, top=2cm, bottom=3cm, bindingoffset=0.5cm]{geometry}
 
+\renewcommand{\footnoterule}{\noindent\smash{\rule[3pt]{\textwidth}{0.4pt}}}
+\fancyhf{}
+\fancyhead[LE]{\scshape\nouppercase{\leftmark}}
+\fancyhead[RO]{\nouppercase{\rightmark}}
+\fancyfoot[LE,RO]{\thepage}
+\pagestyle{fancy}
 
 \begin{document}
 \title{
