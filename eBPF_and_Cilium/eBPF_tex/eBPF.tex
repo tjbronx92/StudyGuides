@@ -75,7 +75,7 @@ The eBPF runtime is responsible for loading, verifying, and executing eBPF progr
     \item [Attachment Points:] Locations in the kernel where eBPF programs can be attached (e.g., kprobes, tracepoints, XDP).
 \end{description}
 
-\section{BPF Program Types}
+\section{eBPF Program Types}
 
 \subsection{Socket Filter Programs}
 \begin{itemize}
@@ -116,4 +116,27 @@ The eBPF runtime is responsible for loading, verifying, and executing eBPF progr
     \item Used for high-performance packet processing.
     \item Ability to modify or drop packets before they reach the kernel networking stack leads to improved performance.
 \end{itemize}
+
+\section{eBPF Map Types}
+eBPF maps are data structures that allow eBPF programs to store and share data between the kernel and user-space.
+
+\subsection{Hash Maps}
+    \begin{description}
+        \item [Hash Maps:] Key-value stores optimized for fast lookups.
+    \end{description}
+
+\subsection{Array Maps}
+    \begin{description}
+        \item [Array Maps:] Fixed-size arrays indexed by integers.
+    \end{description}
+
+\subsection{Per-CPU Maps}
+    \begin{description}
+        \item [Per-CPU Maps:] Store separate values for each CPU core.
+    \end{description}
+
+\subsection{}
+    \begin{description}
+        \item [LRU Maps:] Least Recently Used maps for caching data with eviction policies.
+    \end{description}
 \end{document}
