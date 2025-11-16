@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763287368.11724 "/Users/tj/Documents/StudyGuides/CS/OS Concepts/Chapter01.tex" "Chapter01.pdf" "Chapter01" 1763287368.85989 0
-  "/Users/tj/Documents/StudyGuides/CS/OS Concepts/Chapter01.tex" 1763287367.86783 534 b28c85064a5443069835f73fdedd1276 ""
+["pdflatex"] 1763288209.53248 "/Users/tj/Documents/StudyGuides/CS/OS Concepts/Chapter01.tex" "Chapter01.pdf" "Chapter01" 1763288210.30574 0
+  "/Users/tj/Documents/StudyGuides/CS/OS Concepts/Chapter01.tex" 1763288209.2868 629 d8bce57eb28be786362b88f9cf8fd737 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -35,8 +35,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761032360 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "Chapter01.aux" 1763287368.79723 265 0b2deb6d67998ff548b3bd1af40f80d5 "pdflatex"
-  "Chapter01.tex" 1763287367.86783 534 b28c85064a5443069835f73fdedd1276 ""
+  "Chapter01.aux" 1763288210.23961 265 0b2deb6d67998ff548b3bd1af40f80d5 "pdflatex"
+  "Chapter01.tex" 1763288209.2868 629 d8bce57eb28be786362b88f9cf8fd737 ""
+  "img/embryo.png" 1763287934.18178 242184 d0cebe54e37350b7f384cb335fae8059 ""
   (generated)
   "Chapter01.aux"
   "Chapter01.log"
