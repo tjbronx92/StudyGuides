@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763537800.81399 "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" "linux_notes.pdf" "linux_notes" 1763537801.60678 0
-  "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" 1763537800.53505 669 16e4d9e28491a9fa586ccc9b793a2689 ""
+["pdflatex"] 1763538322.27314 "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" "linux_notes.pdf" "linux_notes" 1763538323.01077 0
+  "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" 1763538322.02802 683 6b91f958ce4a337ae733335b162f46eb ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -45,8 +45,8 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "img/AlmaLinux-Logo.png" 1763537023.12694 4612 a1dd22035f23ea4f665fb92fd0f91227 ""
-  "linux_notes.aux" 1763537801.49633 354 952aac883283c1e5331cc1637dfea1dc "pdflatex"
-  "linux_notes.tex" 1763537800.53505 669 16e4d9e28491a9fa586ccc9b793a2689 ""
+  "linux_notes.aux" 1763538322.93936 362 54f716a04917b6aa5477de488f5c49bc "pdflatex"
+  "linux_notes.tex" 1763538322.02802 683 6b91f958ce4a337ae733335b162f46eb ""
   (generated)
   "linux_notes.aux"
   "linux_notes.log"
