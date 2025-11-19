@@ -22,6 +22,37 @@
 
 \section{File Management}
 \subsection{File Permissions}
+{\begin{description}
+\item [File Permissions] are used to prevent unauthorized access by \textsl{users} to files and directories
+\end{description}}
+
+\subsection{Permission Classes}
+\begin{description}
+    \item[Permission Classes] unique cataegorizes utilized by the kernel to maintain file security via access rights. 
+\end{description}
+Users are assigned to 3 catagories:
+\begin{enumerate}
+    \item \textbf{User (u)}
+    \item \textbf{Group (g)}
+    \item \textbf{Other (o)}
+    \item \textbf{All (a)} - represents all 3 classes
+\end{enumerate}
+
+\subsection{Permission Types}
+There are 3 types of permission bits:
+\begin{enumerate}
+    \item \textbf{Read (r)} - view and copy
+    \item \textbf{Write (w)} - modify
+    \item \textbf{Execute (x) }- run
+    \item \textbf{null (-)} - permission not granted
+\end{enumerate}
+
+\subsection{Permission Modes}
+\begin{enumerate}
+    \item Append permission bit \textbf{(+)} 
+    \item Revoke permission bit \textbf{(-)} 
+    \item Assign permission bit \textbf{(=)} 
+\end{enumerate}
 
 
 
