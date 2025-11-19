@@ -1,5 +1,5 @@
 \documentclass[a4paper,twoside]{article}
-\usepackage[a4paper,inner=1.5cm,outer=3cm,top=.75cm,bindingoffset=0.75cm]{geometry}
+\usepackage[a4paper,inner=1.5cm,outer=3cm,top=2cm,bindingoffset=0.75cm]{geometry}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
 \usepackage{graphicx}
@@ -54,6 +54,18 @@ There are 3 types of permission bits:
     \item Assign permission bit \textbf{(=)} 
 \end{enumerate}
 
+\subsection{Modifying Permissions}
+\begin{description}
+    \item [chmod] is used to change permissions for files \& diectories
+\end{description}
+
+\subsubsection{Symbolic vs. Octal Notation}
+\begin{itemize}
+    \item \textbf{Symbolic Notation} uses letters (ex. \textbf{u,g,o}) \& sumbols (ex. \textbf{+,-,=}) to modify permissions.
+    \item \textbf{Octal Notation} uses 3-digit numbering (ex. \textbf{766}) to modify permissions.
+\end{itemize}
+
+\subsection{Default Permission}
 
 
 \end{document}

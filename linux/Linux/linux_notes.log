@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 NOV 2025 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  19 NOV 2025 00:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -128,14 +128,14 @@ LaTeX Font Info:    ... okay on input line 14.
 * bindingoffset: 21.33955pt
 * modes: twoside 
 * h-part:(L,W,R)=(42.67912pt, 448.13094pt, 85.35826pt)
-* v-part:(T,H,B)=(21.33955pt, 722.30064pt, 101.40665pt)
+* v-part:(T,H,B)=(56.9055pt, 686.7347pt, 101.40665pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=448.13094pt
-* \textheight=722.30064pt
+* \textheight=686.7347pt
 * \oddsidemargin=-8.25131pt
 * \evensidemargin=13.08827pt
-* \topmargin=-87.93044pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -187,25 +187,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/AlmaLinux-Logo.png>] (./linux_notes.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/AlmaLinux-Logo.png>]
+
+[2{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./linux_notes.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3258 strings out of 473190
- 55614 string characters out of 5715801
- 466443 words of memory out of 5000000
- 26514 multiletter control sequences out of 15000+600000
- 563746 words of font info for 52 fonts, out of 8000000 for 9000
+ 3284 strings out of 473190
+ 56248 string characters out of 5715801
+ 466434 words of memory out of 5000000
+ 26538 multiletter control sequences out of 15000+600000
+ 564382 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,257b,257s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb>
-Output written on linux_notes.pdf (1 page, 96521 bytes).
+ 57i,11n,65p,255b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on linux_notes.pdf (2 pages, 109016 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
