@@ -89,7 +89,12 @@ INPUT ./img/findsyntax.png
 INPUT ./img/findsyntax.png
 INPUT ./img/findsyntax.png
 INPUT ./img/findsyntax.png
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT linux_notes.aux
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb

@@ -152,5 +152,12 @@ After invoking the find command, the first option is the location path to search
 \begin{description}
     \item[example input:] \texttt{find /Documents -type f -name BLS* -exec ls -ld \{\} \textbackslash ;}
 \end{description}
+\begin{itemize}
+    \item (\textbf\{\textbf\}) represents each file found
+    \item (\textbf{;}) terminates the command.
+    \item (\textbf{\textbackslash}) is used to escape (\textbf{;})
+\end{itemize}
+
+\section{Linux Processes and Job Scheduling}
 
 \end{document}
