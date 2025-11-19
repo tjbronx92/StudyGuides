@@ -32,7 +32,7 @@
 \end{description}
 Users are assigned to 3 catagories:
 \begin{enumerate}
-    \item \textbf{User (u)}
+    \item \textbf{User Owner (u)}
     \item \textbf{Group (g)}
     \item \textbf{Other (o)}
     \item \textbf{All (a)} - represents all 3 classes
@@ -56,7 +56,7 @@ There are 3 types of permission bits:
 
 \subsection{Modifying Permissions}
 \begin{description}
-    \item [chmod] is used to change permissions for files \& diectories
+    \item [chmod] is used to change permissions of files \& diectories
 \end{description}
 
 \subsubsection{Symbolic vs. Octal Notation}
@@ -66,6 +66,91 @@ There are 3 types of permission bits:
 \end{itemize}
 
 \subsection{Default Permission}
+\begin{description}
+    \item [umask] is used to set default permissions on a file without modify permissions on existing files and directories.
+\end{description}
 
+\begin{itemize}
+\item The default \textsl{umask} value for all users including the root user is \textbf{0022}.
+\item The default initial permission value for files is \textbf{666} \& \textbf{777} for directories.
+\end{itemize}
+
+\subsection{Calulating Default Permission}
+Calculating default permissions for files: \\
+\noindent{Initial Permission \indent\indent{ 666} }\\
+umask \indent\indent\indent\indent\indent{- 022} \\
+================== \\
+Default Permission \indent\indent{044}\\
+
+\noindent{Calculating default permissions for directories:}\\
+\noindent{Initial Permission \indent\indent{ 777}} \\
+umask \indent\indent\indent\indent\indent{- 022} \\
+================== \\
+Default Permission \indent\indent{055}
+
+\subsection{Special File Permission}
+There are 3 Special Permission Bits that can be configured for binary files and directories:
+\begin{enumerate}
+    \item \textbf{SETUID} (SET User IDentifier) - applied to binary executable files at the \textsl{user owner (u)} level. It gives non-owners the same file permissions as the user owner.
+    \item \textbf{SETGID} (SET Group IDentifier) - applied to binary executable files at the \textsl{user owner (u)} level. It gives non-owners and group memebers the same file permissions as the user \& group owner.
+    \item \textbf{Sticky Bit} - is set on public directories to prevent other users from deleteing or moving files.
+\end{enumerate}
+
+\subsection{File Searching}
+\begin{description}
+    \item [find] is the command used to search for files on a Linux System and perform actions on found files.
+\end{description}
+After invoking the find command, the first option is the location path to search (ex. current (.), /tmp, /home/).
+
+\subsection{\texttt{find} Command Options}
+\begin{itemize}
+    \item use \textbf{-iname} to search for files that \textsl{begins} with a string.
+        \begin{description}
+            \item [example input:] \texttt{find /dev -iname usb*}
+        \end{description}
+        \indent\textbf{example output:} \\ 
+        \texttt{/dev/usb1} \\
+        \texttt{/dev/monusb0} \\
+        \texttt{/dev/monusb1}
+    \item use \textbf{-size} to search for files by size
+        \begin{itemize}
+            \item use (-) to find items smaller then designated size
+                \begin{description}
+                    \item [example input:] \texttt{find /dev -size -2M}
+                \end{description}
+            \item use (+) to find items larger then designated size
+                \begin{description}
+                    \item [example input:] \texttt{find /dev -size +2M}
+                \end{description}
+        \end{itemize}
+            \item find files owened by a specific user (\textsl{daemon}) and exclude specific group (\textsl{user1}).
+                \begin{description}
+                    \item [example input:] \texttt{find /dev -user daemon -not -group user1}
+                \end{description}
+    \item use \textbf{-type} to seach by filetype (d=directory, f=file)
+        \begin{description}
+            \item[example input:] \texttt{find /usr -type d -name src}
+        \end{description}
+    \item use \textbf{-maxdepth} to seach set maximum subdirectory depth to search
+        \begin{description}
+            \item[example input:] \texttt{find /home -maxdepth 3 -type f -name src}
+        \end{description}
+\end{itemize}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=9cm]{img/findsyntax.png}
+    \caption{FIND Command Syntax}
+\end{figure}
+
+\subsubsection{Using the \texttt{-exec} and \texttt{-ok} options}
+\begin{itemize}
+    \item \texttt{-exec} is used to perform actions on the files found by \texttt{find}.
+    \item \texttt{-ok} is the same as \texttt{-exec}, but requires user confirmation to execute.
+\end{itemize}
+
+\begin{description}
+    \item[example input:] \texttt{find /Documents -type f -name BLS* -exec ls -ld \{\} \textbackslash ;}
+\end{description}
 
 \end{document}
