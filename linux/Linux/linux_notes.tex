@@ -179,7 +179,7 @@ Every process is in one of the \textbf{5 Basic Operating States:}
     \item \textbf{sleeping} - the process is waiting for input from the user or other source.
     \item \textbf{waiting} - input has been recieved by the process and it is waiting to run.
     \item \textbf{stopped} - the process has been halted and will not run until a signal is recieved to change it's state.
-    \item \textbf{zombie} - The process is \textsl{dead}, aka \textsl{defunt}. There is an entry in the process table, but the process takes up no reources.
+    \item \textbf{zombie} - The process is \textsl{dead}, aka \textsl{defunt}. There is an entry in the process table, but the process takes up no reources (i.e, CPU).
 \end{enumerate}
 
 \begin{figure}
@@ -200,11 +200,20 @@ Every process is in one of the \textbf{5 Basic Operating States:}
 \subsection{Process Niceness \& Priority}
 \begin{itemize}
     \item the \texttt{nice} command can launch a program at a non-default priority.
+        \begin{itemize}
+            \item nice can also be used to confirm default \texttt{nice} score on RHEL systems.
+        \end{itemize}
     \item the \texttt{renice} command is utilized to alter the priority of running processes.
     \item A process's execution priority is determined by the nice score assigned to it when it spawned. There are 40 niceness scores from \textsl{-20 (best)} to \textsl{19 (worst)}.
     \item Higher Nice Score \textbf{=} More CPU Attention
+    \item The default \texttt{nice} score for a process is \texttt{0}.
     \item Child process inherit the nice score of it's parent (calling) process.
 \end{itemize}
+
+\section{Job Scheduling}
+\begin{description}
+    \item[job scheduling] allows users to run a command in the future. 
+\end{description}
 
 
 \end{document}
