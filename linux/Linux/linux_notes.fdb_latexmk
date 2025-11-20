@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763662451.32785 "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" "linux_notes.pdf" "linux_notes" 1763662452.65556 0
-  "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" 1763662451.08012 9261 d3535ad64b4e09fc17d42ab3a97b0f24 ""
+["pdflatex"] 1763664709.79763 "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" "linux_notes.pdf" "linux_notes" 1763664711.14484 0
+  "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" 1763664709.54589 9705 112051fd36443330a0d8b880bb2e3761 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -62,8 +62,8 @@
   "img/AlmaLinux-Logo.png" 1763659788.32313 4612 a1dd22035f23ea4f665fb92fd0f91227 ""
   "img/findsyntax.png" 1763659788.32537 550587 5dd5804460a7ecc4ab5edc5c5dfae7b0 ""
   "img/processstates.png" 1763659788.32678 297231 b670474d6b7a442819b99a3393826bee ""
-  "linux_notes.aux" 1763662452.57398 2912 9ec56163fb74de736dc6247f604d3aea "pdflatex"
-  "linux_notes.tex" 1763662451.08012 9261 d3535ad64b4e09fc17d42ab3a97b0f24 ""
+  "linux_notes.aux" 1763664711.06798 2912 9b3c0a388afe407767b100b4f67cd030 "pdflatex"
+  "linux_notes.tex" 1763664709.54589 9705 112051fd36443330a0d8b880bb2e3761 ""
   (generated)
   "linux_notes.aux"
   "linux_notes.log"
