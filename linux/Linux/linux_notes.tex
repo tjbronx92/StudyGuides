@@ -140,7 +140,7 @@ After invoking the find command, the first option is the location path to search
 \begin{figure}
     \centering
     \includegraphics[width=9cm]{img/findsyntax.png}
-    \caption{FIND Command Syntax}
+    \caption{\texttt{find} Command Syntax}
 \end{figure}
 
 \subsubsection{Using the \texttt{-exec} and \texttt{-ok} options}
@@ -159,5 +159,52 @@ After invoking the find command, the first option is the location path to search
 \end{itemize}
 
 \section{Linux Processes and Job Scheduling}
+
+\subsection{Processes \& Priorities}
+\begin{description}
+    \item[process] a unit for provisioning system resources. It is any program, command, or application running on the system.
+    \item[daemon] critical system processes that startup automatically and run in the background.
+\end{description}
+\begin{itemize}
+    \item One parent process can spawn one or many child processes and passes attributes to them during creation. 
+    \item A \textsl{Process Identifacation Number (PID)} is assigned to each process.
+    \item The PID is utilized by the kernel to manage the process during it's lifespan.
+\end{itemize}
+
+\subsection{Process States}
+A process can jump from one operating state to another thoughout it's lifespan. \\
+Every process is in one of the \textbf{5 Basic Operating States:}
+\begin{enumerate}
+    \item \textbf{running} - the process is currently being executed on the system.
+    \item \textbf{sleeping} - the process is waiting for input from the user or other source.
+    \item \textbf{waiting} - input has been recieved by the process and it is waiting to run.
+    \item \textbf{stopped} - the process has been halted and will not run until a signal is recieved to change it's state.
+    \item \textbf{zombie} - The process is \textsl{dead}, aka \textsl{defunt}. There is an entry in the process table, but the process takes up no reources.
+\end{enumerate}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=9cm]{img/processstates.png}
+    \caption{Process States}
+\end{figure}
+
+\subsection{Viewing and Monitoring System Processes using \texttt{ps} \& \texttt{top}}
+\begin{itemize}
+    \item \texttt{ps} (process status)
+    \item \texttt{top} (table of process)
+\end{itemize}
+
+\subsubsection{\texttt{ps} Commands \& Output}
+\subsubsection{\texttt{top} Commands \& Output}
+
+\subsection{Process Niceness \& Priority}
+\begin{itemize}
+    \item the \texttt{nice} command can launch a program at a non-default priority.
+    \item the \texttt{renice} command is utilized to alter the priority of running processes.
+    \item A process's execution priority is determined by the nice score assigned to it when it spawned. There are 40 niceness scores from \textsl{-20 (best)} to \textsl{19 (worst)}.
+    \item Higher Nice Score \textbf{=} More CPU Attention
+    \item Child process inherit the nice score of it's parent (calling) process.
+\end{itemize}
+
 
 \end{document}
