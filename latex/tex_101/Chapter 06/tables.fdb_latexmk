@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763718578.87648 "/Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 06/tables.tex" "tables.pdf" "tables" 1763718579.88579 0
-  "/Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 06/tables.tex" 1763718578.50269 388 7d534395cd5e0b567ae301f14138c8a3 ""
+["pdflatex"] 1763884179.81818 "/Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 06/tables.tex" "tables.pdf" "tables" 1763884180.68043 0
+  "/Users/tj/Documents/StudyGuides/latex/tex_101/Chapter 06/tables.tex" 1763884179.28345 756 90e4f0f55f737e6b6bd04f972d57d358 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmss10.tfm" 1136768653 1316 b636689f1933f24d1294acdf6041daaa ""
@@ -16,8 +16,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761032360 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "tables.aux" 1763718579.81529 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "tables.tex" 1763718578.50269 388 7d534395cd5e0b567ae301f14138c8a3 ""
+  "tables.aux" 1763884180.61288 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "tables.tex" 1763884179.28345 756 90e4f0f55f737e6b6bd04f972d57d358 ""
   (generated)
   "tables.aux"
   "tables.log"
