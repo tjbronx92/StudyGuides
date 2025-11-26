@@ -236,7 +236,6 @@ Every process is in one of the \textbf{5 Basic Operating States:}
 \begin{description}
     \item[job scheduling] allows users to run a command in the future. 
     \item [atd] is the service daemon used to schedule a one time task in the future.
-    \item [atq] app to view all scheduled jobs for current user.
     \item [crond] is the service daemon used to schedule reptitive tasks.
         \begin{itemize}
             \item during system boot the crond daemon reads jobs from \texttt{/var/spool/cron/crontabs} (user cron jobs) \& \texttt{/etc/cron.d} (system cron jobs).
@@ -249,6 +248,7 @@ Every process is in one of the \textbf{5 Basic Operating States:}
 \begin{description}
     \item[crontab -e] edit \texttt{/etc/crontab}
     \item[crontab -i] view scheduled cronjobs 
+    \item[atq] app to view all scheduled jobs for current user.
 \end{description}
 
 \begin{figure}
