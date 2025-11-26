@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1764142143.52595 "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" "linux_notes.pdf" "linux_notes" 1764142145.22714 0
-  "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" 1764142143.05727 10362 bfad1f79ff2d6f632a7d5c5513303d28 ""
+["pdflatex"] 1764143088.60273 "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" "linux_notes.pdf" "linux_notes" 1764143090.05978 0
+  "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" 1764143088.33175 10931 ddebdc522386e02e0ae19859d91b71be ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -63,8 +63,8 @@
   "img/cron/ex-crontab-out.png" 1764141545.08996 50511 bd82db678f725e53e0781d47bdf271de ""
   "img/findsyntax.png" 1763545195.81259 550587 5dd5804460a7ecc4ab5edc5c5dfae7b0 ""
   "img/processstates.png" 1763628744.45902 297231 b670474d6b7a442819b99a3393826bee ""
-  "linux_notes.aux" 1764142145.02719 2888 8f996f2ef9ed3dd92af221f3a1da3b13 "pdflatex"
-  "linux_notes.tex" 1764142143.05727 10362 bfad1f79ff2d6f632a7d5c5513303d28 ""
+  "linux_notes.aux" 1764143089.95495 3326 6ceae70d075bacd470dab1f29addadfe "pdflatex"
+  "linux_notes.tex" 1764143088.33175 10931 ddebdc522386e02e0ae19859d91b71be ""
   (generated)
   "linux_notes.aux"
   "linux_notes.log"

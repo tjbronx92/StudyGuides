@@ -214,6 +214,24 @@ Every process is in one of the \textbf{5 Basic Operating States:}
     \item Child process inherit the nice score of it's parent (calling) process.
 \end{itemize}
 
+\section{System Date and Time}
+\begin{description}
+    \item[timedatectl] app used to get \& change system timezone
+\end{description}
+
+\subsection{View System Date \& Time}
+\begin{itemize}
+    \item use \texttt{date} to view system date and time
+    \item use \texttt{timedatectl} to view system timezone
+\end{itemize}
+
+\subsection{Edit System Date \& Time}
+\begin{itemize}
+    \item use \texttt{timedatectl set-timezone} to update system timezone
+    \item edit \texttt{/etc/systemd/timesyncd.conf} file to update sytem NTP pools.
+
+\end{itemize}
+
 \section{Job Scheduling}
 \begin{description}
     \item[job scheduling] allows users to run a command in the future. 
@@ -237,6 +255,9 @@ Every process is in one of the \textbf{5 Basic Operating States:}
     \includegraphics[width=15cm]{img/cron/ex-crontab-out.png}
     \caption{\texttt{/etc/crontab} File}
 \end{figure}
+
+\section{IPtables}
+
 
 
 \end{document}
