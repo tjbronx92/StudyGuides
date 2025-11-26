@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1764143088.60273 "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" "linux_notes.pdf" "linux_notes" 1764143090.05978 0
-  "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" 1764143088.33175 10931 ddebdc522386e02e0ae19859d91b71be ""
+["pdflatex"] 1764180228.33216 "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" "linux_notes.pdf" "linux_notes" 1764180229.77017 0
+  "/Users/tj/Documents/StudyGuides/linux/Linux/linux_notes.tex" 1764180228.0838 10996 acdbc64119e0c4920f00a4565b63016a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -56,15 +56,15 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1716410060 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
-  "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761032360 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
+  "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761603459 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "img/AlmaLinux-Logo.png" 1763537023.12694 4612 a1dd22035f23ea4f665fb92fd0f91227 ""
-  "img/cron/ex-crontab-out.png" 1764141545.08996 50511 bd82db678f725e53e0781d47bdf271de ""
-  "img/findsyntax.png" 1763545195.81259 550587 5dd5804460a7ecc4ab5edc5c5dfae7b0 ""
-  "img/processstates.png" 1763628744.45902 297231 b670474d6b7a442819b99a3393826bee ""
-  "linux_notes.aux" 1764143089.95495 3326 6ceae70d075bacd470dab1f29addadfe "pdflatex"
-  "linux_notes.tex" 1764143088.33175 10931 ddebdc522386e02e0ae19859d91b71be ""
+  "img/AlmaLinux-Logo.png" 1763747288.58376 4612 a1dd22035f23ea4f665fb92fd0f91227 ""
+  "img/cron/ex-crontab-out.png" 1764179838.73476 50511 bd82db678f725e53e0781d47bdf271de ""
+  "img/findsyntax.png" 1763747288.58598 550587 5dd5804460a7ecc4ab5edc5c5dfae7b0 ""
+  "img/processstates.png" 1763747288.58727 297231 b670474d6b7a442819b99a3393826bee ""
+  "linux_notes.aux" 1764180229.6879 3326 6ceae70d075bacd470dab1f29addadfe "pdflatex"
+  "linux_notes.tex" 1764180228.0838 10996 acdbc64119e0c4920f00a4565b63016a ""
   (generated)
   "linux_notes.aux"
   "linux_notes.log"
