@@ -98,6 +98,11 @@ INPUT ./img/processstates.png
 INPUT ./img/processstates.png
 INPUT ./img/processstates.png
 INPUT ./img/processstates.png
+INPUT ./img/cron/ex-crontab-out.png
+INPUT ./img/cron/ex-crontab-out.png
+INPUT ./img/cron/ex-crontab-out.png
+INPUT ./img/cron/ex-crontab-out.png
+INPUT ./img/cron/ex-crontab-out.png
 INPUT linux_notes.aux
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb

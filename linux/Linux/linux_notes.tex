@@ -191,11 +191,15 @@ Every process is in one of the \textbf{5 Basic Operating States:}
 \subsection{Viewing and Monitoring System Processes using \texttt{ps} \& \texttt{top}}
 \begin{itemize}
     \item \texttt{ps} (process status)
+        \begin{itemize}
+            \item Useful Commands \& Options
+                \begin{itemize}
+                    \item \texttt{ps -as} output all processes and include file size.
+                    \item pipe \texttt{ps} output to \texttt{grep} to filter output.
+                \end{itemize}
+        \end{itemize}
     \item \texttt{top} (table of processes)
 \end{itemize}
-
-\subsubsection{\texttt{ps} Commands \& Output}
-\subsubsection{\texttt{top} Commands \& Output}
 
 \subsection{Process Niceness \& Priority}
 \begin{itemize}
@@ -216,10 +220,23 @@ Every process is in one of the \textbf{5 Basic Operating States:}
     \item [atd] is the service daemon used to schedule a one time task in the future.
     \item [crond] is the service daemon used to schedule reptitive tasks.
         \begin{itemize}
-            \item during system boot the crond daemon reads jobs from \texttt{/var/spool/cron} \& \texttt{/etc/cron.d}.
+            \item during system boot the crond daemon reads jobs from \texttt{/var/spool/cron/crontabs} (user cron jobs) \& \texttt{/etc/cron.d} (system cron jobs).
             \item \texttt{crond} loads scheduled jobs into memory at boot and scans the files regularly thereafter.
         \end{itemize}
+    \item [crontab] linux app used to edit the \texttt{ /etc/contab} file.
 \end{description}
+
+\subsection{Crontab Usage}
+\begin{description}
+    \item[crontab -e] edit \texttt{/etc/crontab}
+    \item[crontab -i] view scheduled cronjobs 
+\end{description}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=15cm]{img/cron/ex-crontab-out.png}
+    \caption{\texttt{/etc/crontab} File}
+\end{figure}
 
 
 \end{document}
