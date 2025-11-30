@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1764489437.16531 "/Users/tj/Documents/StudyGuides/prometheus/prometheus.tex" "prometheus.pdf" "prometheus" 1764489437.99241 0
-  "/Users/tj/Documents/StudyGuides/prometheus/prometheus.tex" 1764489436.76167 5276 02befbfae3543fd4a02727872e135d86 ""
+["pdflatex"] 1764489644.58393 "/Users/tj/Documents/StudyGuides/prometheus/prometheus.tex" "prometheus.pdf" "prometheus" 1764489645.30704 0
+  "/Users/tj/Documents/StudyGuides/prometheus/prometheus.tex" 1764489643.5603 5287 d99e96ba3069111ddbc18b010f910e6d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcbx1200.tfm" 1136768653 1536 c09172c8f235393e6235bb4758357c41 ""
@@ -46,8 +46,8 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761032360 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741450574 3345740 46b66fdb0378f7bf5921b5eabf1762b8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "prometheus.aux" 1764489437.89151 1795 b739c1bc642a8b58a442bf09725062b3 "pdflatex"
-  "prometheus.tex" 1764489436.76167 5276 02befbfae3543fd4a02727872e135d86 ""
+  "prometheus.aux" 1764489645.21924 1795 8929847424286f6bd7f3dd878ec21e32 "pdflatex"
+  "prometheus.tex" 1764489643.5603 5287 d99e96ba3069111ddbc18b010f910e6d ""
   (generated)
   "prometheus.aux"
   "prometheus.log"
