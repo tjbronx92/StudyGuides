@@ -3,6 +3,7 @@
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
 \usepackage{sectsty}
+\usepackage{textcomp}
 
 \sectionfont{\normalfont\scshape}
 \subsectionfont{\normalfont\scshape}
@@ -21,7 +22,10 @@
 \section{Metric vs. Time-Series}
 \begin{description}
     \item[Metric] is a numerical value that represents a specific measurement at a specific point in time.
-    \item[Time-Series] is a sequence of data points, typically ordered by time, that represents the evolution of a metric over time.
+    \item[Time Series] is a sequence of data points, typically ordered by time, that represents the evolution of a metric over time.
+        \begin{itemize}
+            \item every metric \& label combo is a time series.
+        \end{itemize}
 \end{description}
 
 \section{Prometheus TSDB}
@@ -49,7 +53,7 @@
     \end{itemize}
 \end{description}
 
-\section{promQL}
+\section{promQL (Prometheus Query Language)}
 \begin{description}
     \item[promQL]  is the query language used to query metrics stored in Prometheus.
 \end{description}
@@ -59,8 +63,40 @@ PromQL queries can evaluate to one of four types of results:
 \begin{itemize}
     \item Instant vector: A set of time series containing a single sample for each time series, all sharing the same timestamp.
     \item Range vector: A set of time series containing a range of data points over time for each time series.
-    \item Scalar: A single numerical value.
-    \item String: A single string value.
+    \item Scalar: A single numerical value. (i.e., 177.6)
+    \item String: A single string value. (i.e., "Primus Sux")
+\end{itemize}
+
+\subsection{Selectors \& Matychers}
+
+\subsubsection{Selctors}
+    \begin{itemize}
+        \item timeseries
+        \item \underline{Range Vector Selector} will returns all values for a metric over a time period
+    \end{itemize}
+
+\subsubsection{Label Matchers}
+    \begin{itemize}
+        \item Label matchers allow you to return metrics for a subset of time series.
+            \begin{description}
+                \item[=] Exact match on a label value.
+                \item[!=] Negative equality matcher - return time series that do not have specified label.
+                \item[=\texttildelow] Regualar Expression Matcher - utilize \texttt{regex} to match time series.
+                \item[!\texttildelow] Negative Regualar Expression Matcher - return time series that do not match \texttt{regex} expression
+            \end{description}
+        \item multiple seletors can. be used in a query by seperating them with a comma.
+    \end{itemize}
+
+\subsection{Modifiers}
+
+\begin{description}
+    \item[offset modifiers] allows you top retrieve historc data. 
+    \item[@ modifier] allows you to retrieve data from a specific point in time. 
+\end{description}
+
+\begin{itemize}
+    \item \textbf{offset} and \textbf{@} modifiers can be combined in a query (order does not matter).
+    \item \textbf{Range vectors} can also be combined with \textbf{offset} and \textbf{@} modifiers.
 \end{itemize}
 
 
